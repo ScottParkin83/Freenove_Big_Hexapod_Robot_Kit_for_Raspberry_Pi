@@ -14,21 +14,21 @@ c=Control()
 #Action Mode : '0'   Angleless turn 
 
 #Move forward in action mode 1 and gait mode 1
-for i in range(3):
-    data=['CMD_MOVE', '1', '0', '35', '10', '0']
-    c.run(data)
+#for i in range(3):
+#    data=['CMD_MOVE', '1', '0', '35', '10', '0']
+#    c.run(data)
 
 #Move right in action mode 1 and gait mode 1
-for i in range(3):
-    data=['CMD_MOVE', '1', '35', '0', '10', '0']
-    c.run(data)
+#for i in range(3):
+#    data=['CMD_MOVE', '1', '35', '0', '10', '0']
+#    c.run(data)
 #Move backward in action mode 2 and gait mode 2    
-for i in range(3):
-    data=['CMD_MOVE', '2', '0', '-35', '10', '10']
-    c.run(data)
+#for i in range(3):
+#    data=['CMD_MOVE', '2', '0', '-35', '10', '10']
+#    c.run(data)
     
 #Move right in action mode 2 and gait mode 2    
-for i in range(3):
-    data=['CMD_MOVE', '2', '35', '0', '10', '10']
-    c.run(data)
-
+#for i in range(3):
+#    data=['CMD_MOVE', '2', '35', '0', '10', '10']
+#    c.run(data)
+self.setServoAngle(1, 90)
